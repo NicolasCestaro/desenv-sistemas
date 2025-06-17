@@ -1,0 +1,6 @@
+String	"texto"
+Int	"Numero inteiros"
+Float	"Numero com virgula"
+Boll	"false/true"
+
+Então quando um carro for flex vai ser true se não for vai ser false 
