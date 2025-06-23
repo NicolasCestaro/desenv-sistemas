@@ -4,3 +4,10 @@ Float	"Numero com virgula"
 Boll	"false/true"
 
 Então quando um carro for flex vai ser true se não for vai ser false 
+
+if  idade maior que 18 
+    print("maior")
+elif idade menor que 18
+    print("menor")
+else   
+    print("valor invalido")
