@@ -130,39 +130,80 @@
 
 # senha(1234)
 
-#criar função de menu de opçoes e pedir a opção desejada ao usuario
-#-criar função de depósito
-#-criar função de saque
-#-criar função de ver saldo 
-#-ao digitar "sair" encerrar o progama
+# criar função de menu de opçoes e pedir a opção desejada ao usuario
+# -criar função de depósito
+# -criar função de saque
+# -criar função de ver saldo 
+# -ao digitar "sair" encerrar o progama
 
-saldo = 0
-def menu():
-    print("1 - Depósito")
-    print("2 - Saque")
-    print("3 - Ver saldo")
-    print("Digite 'sair' para encerrar")
+# saldo = 0
+# def menu():
+#     print("1 - Depósito")
+#     print("2 - Saque")
+#     print("3 - Ver saldo")
+#     print("Digite 'sair' para encerrar")
 
-def deposito(saldo):
-    valor = float(input("Valor do depósito: "))
-    return saldo + valor
+# def deposito(saldo):
+#     valor = float(input("Valor do depósito: "))
+#     return saldo + valor
 
-def saque(saldo):
-    valor = float(input("Valor do saque: "))
-    return saldo - valor
+# def saque(saldo):
+#     valor = float(input("Valor do saque: "))
+#     return saldo - valor
 
-def ver_saldo(saldo):
-    print("Saldo:", saldo)
+# def ver_saldo(saldo):
+#     print("Saldo:", saldo)
 
-saldo = 0
-opcao = ""
+# saldo = 0
+# opcao = ""
 
-while opcao != "sair":
-    menu()
-    opcao = input("Opção: ")
-    if opcao == "1":
-        saldo = deposito(saldo)
-    elif opcao == "2":
-        saldo = saque(saldo)
-    elif opcao == "3":
-        ver_saldo(saldo)
+# while opcao != "sair":
+#     menu()
+#     opcao = input("Opção: ")
+#     if opcao == "1":
+#         saldo = deposito(saldo)
+#     elif opcao == "2":
+#         saldo = saque(saldo)
+#     elif opcao == "3":
+#         ver_saldo(saldo)
+
+# Atividade do dia 19/08/25
+# crie uma lista de tarefas 
+
+# adicione 5 tarefas na  lista
+
+# adicione uma tarefa na posição 2 da lista 
+
+# remova a  "lavar louça" da lista 
+
+# remover a tarefa da posição 1 da lista
+
+
+# lista_tarefas = ["estudar", "lavar louça", "fazer compras", "limpar o quarto", "pagar contas"]  
+# lista_tarefas.insert(1, "ir à academia")  
+# lista_tarefas.remove("lavar louça") 
+# del lista_tarefas[1]   
+# print("Lista de tarefas atualizada:", lista_tarefas)
+
+# crie uma lista de 10 alunos mostre "ola" + nome de cada aluno
+# alunos = ["Rafael", "Nicolas", "Agner", "Julia", "Guilherme", "Fernando", "Guilherme magni", "Breno", "Vitor", "Rafaela"]
+
+# for aluno in alunos:
+#     print("Olá " + aluno)
+
+# crie uma lista de 10 numeros mostre a soma de todos os numeros da lista
+# numeros = [21, 32, 23, 44, 55, 66, 97, 38, 29, 19]
+
+# soma = sum(numeros)
+
+# print("A soma é:", soma)
+
+numeros = [1,2,3,4,5,6,7,8,9,10,
+           11,12,13,14,15,16,17,18,19,20]
+
+pares = len([n for n in numeros if n % 2 == 0])
+impares = len([n for n in numeros if n % 2 != 0])
+
+print("Pares:", pares)
+print("Ímpares:", impares)
+print("Total:", len(numeros))  
