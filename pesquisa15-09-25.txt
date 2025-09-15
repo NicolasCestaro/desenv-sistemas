@@ -1,0 +1,3 @@
+1 no json tudo fica organizado em chave e valor tipo nas configs de xit onde voce sabe certinho o que e cada opcao num txt seria so texto jogado e voce teria que interpretar na unha
+2 json e um formato que qualquer linguagem ja entende entao o xit consegue ler e aplicar a config direto com txt o dev teria que programar uma forma de separar as infos o que complica ou pode crashar o jogo como cs2
+3 no json da pra salvar listas e objetos inteiros como varias binds como de aimbot,triggerbot e valores de aim enquanto no txt isso ficaria desorganizado e dificil de carregar
